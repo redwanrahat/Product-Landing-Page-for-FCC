@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main{
+    position: relative;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px #00000023;
+    padding: 1% 3% 1% 3%;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+  
+nav ul {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hero{
+    padding: 5%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+#hero-text{
+    margin-bottom: 5%;
+}
+
+input[type="email"] {
+    max-width: 70%;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn{
+    padding: 12px;
+    background-color: #8C53FF;
+    border: none;
+    color: white; 
+    text-transform: uppercase;  
+}
+
+.blank-container{
+    height: 82px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
