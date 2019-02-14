@@ -43,7 +43,7 @@ nav ul {
 
 #hero{
     padding: 5%;
-    background-color: #eee;
+    background-image: url(https://lh3.google.com/u/1/d/106xmursOOEQvulelyQJjFGnnqspXEphO=w1366-h576-iv1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,10 +62,11 @@ input[type="email"] {
 
 .btn{
     padding: 12px;
-    background-color: #8C53FF;
+    background-color: #34375A;
     border: none;
     color: white; 
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    font-weight: 600;  
 }
 
 .blank-container{
@@ -76,7 +77,219 @@ input[type="email"] {
 }
 
 .container{
-    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+}
+
+.grid{
+    display: flex;
+}
+
+#features{
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 15vw;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 50vw;
+}
+
+#video-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 5%; 
+}
+
+ol li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+
+#pricing{
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.package-name{
+    background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 5%;
+    width: 100%;
+    color: #DC4E76;
+    display: flex;
+    justify-content: center;
+}
+
+#basic{
+    width: 20%; 
+    background-color: white;
+    margin-right: 2%;
+}
+
+#standard{
+    width: 20%;
+    background-color: white;
+    margin-right: 2%;
+}
+
+#premium{
+    width: 20%;
+    background-color: white;
+}
+
+.pack-attr{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot li{
+    list-style: none;
+    width: 5vw;
+}
+
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 1%;
+}
+
+#copy{
+    padding-bottom: 1%;
+    color: rgb(129, 129, 129); 
+}
+
+#price{ 
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+#basic-order{
+    margin-top: 60%;
+    margin-bottom: 5%;
+}
+
+#stan-order{
+    margin-top: 46%;
+    margin-bottom: 5%;
+}
+
+#prem-order{
+    margin-top: 18%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 640px){
+    header {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 50px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .blank-container{
+        height: 120px;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    #hero-text{
+        margin-top: 5%;
+    }
+
+    .btn{
+        margin-top: 5%;  
+        margin-bottom: 5%;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .desc{
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 35vw;
+        margin-bottom: 5%;
+    }
+
+    #pricing{
+        flex-direction: column;
+    }
+
+    #basic{
+        width: 100%; 
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    
+    #standard{
+        width: 100%;
+        background-color: white;  
+        margin-bottom: 5%;  
+    }
+    
+    #premium{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+    
+    ol li{
+        height: 6vw;
+    }
+
+    #footer{
+        padding: 5%;
+    }
+
+    #foot li{
+        list-style: none;
+        width: 20vw;
+    }
 }
